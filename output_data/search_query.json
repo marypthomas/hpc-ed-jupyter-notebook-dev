@@ -1,0 +1,198 @@
+{
+  "@datatype": "GSearchResult",
+  "@version": "2017-09-01",
+  "count": 5,
+  "gmeta": [
+    {
+      "@datatype": "GMetaResult",
+      "@version": "2019-08-27",
+      "entries": [
+        {
+          "content": {
+            "Abstract": " Interactive high-performance computing (HPC) involves real-time user inputs that result in actions being performed on HPC compute nodes. This session presents an overview of interactive computing tools and methods.",
+            "Authors": [],
+            "Expertise_Level": [
+              "All"
+            ],
+            "IV": false,
+            "Keywords": [
+              "Expanse",
+              "HPC Training",
+              "TSCC",
+              "Voyager"
+            ],
+            "Language": "en",
+            "Learning_Resource_Type": "recorded lesson",
+            "Provider_ID": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:856",
+            "Resource_URL_Type": "URL",
+            "Start_Datetime": "2024-04-18T18:00:00.000000",
+            "Target_Group": [
+              "Research groups"
+            ],
+            "Title": "COMPLECS: Interactive Computing",
+            "URL": "https://education.sdsc.edu/training/interactive/202404-Interactive-Computing"
+          },
+          "entry_id": "std",
+          "matched_principal_sets": []
+        }
+      ],
+      "subject": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:856:202404-Interactive-Computing"
+    },
+    {
+      "@datatype": "GMetaResult",
+      "@version": "2019-08-27",
+      "entries": [
+        {
+          "content": {
+            "Abstract": "Successful outreach to computational researchers for informing about the benefits of switching to a different computing environment depends on the educator's ability to showcase practical research and development workflows in the new computing environment. Interactive, graphical computing environments are crucial to engage learners in computing education and offer researchers easier ways to adopt new technologies. Interactive, graphical computing allows learners to see the results of their work in real time, which provides the needed feedback for learning and enables chunking of complex tasks. Moreover, there is a natural synergy between computing education and computing research; researchers who are exposed to new computing skills within the context of an interactive and engaging environment are more likely to retain the new skills and adopt the new computing environment in their research and development workflows. Support for interactive, graphical workflows with modern computing tools in containerized computing environments has to be incorporated on high performance computing systems. To begin to address this deficiency, here we discuss our approach to teach containerization technologies in the popular integrated development environment of the Jupyter Notebook. We report on our scheme for implementing containerized software environments for interactive, graphical computing within the Open OnDemand (OOD) framework for research computing workflows, providing an accessible on-ramp for researchers transitioning to containerized technologies. In addition, we introduce several quality-of-life improvements for researchers and educators that will encourage them to continue to use the platform.",
+            "Authors": [
+              "given-name: \"Richard"
+            ],
+            "Cost": "no",
+            "Keywords": [
+              "Open OnDemand",
+              "Cyberinfrastructure",
+              "Portal",
+              "Jupyter notebooks",
+              "Singularity",
+              "Containers",
+              "Training"
+            ],
+            "Language": "en",
+            "Learning_Resource_Type": "Journal article",
+            "License": "null",
+            "Provider_ID": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:896",
+            "Resource_URL_Type": "DOI",
+            "Target_Group": [
+              "Research Community",
+              "Educators",
+              "Students"
+            ],
+            "Title": "Expanding Interactive Computing to Facilitate Informal Instruction in Research Computing",
+            "URL": "doi:10.22369/issn.2153-4136/13/1/9",
+            "Version_Date": "2022-04-13T15:06:56-04:00",
+            "id": "std"
+          },
+          "entry_id": null,
+          "matched_principal_sets": []
+        }
+      ],
+      "subject": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:896:jocse-13-1-9"
+    },
+    {
+      "@datatype": "GMetaResult",
+      "@version": "2019-08-27",
+      "entries": [
+        {
+          "content": {
+            "Abstract": "Interactive computing includes commonly used programs, such as word processors or spreadsheet applications running user devices (mobile phones, laptops).  Interactive high-performance computing (HPC) involves real-time user inputs that result in actions being performed on HPC compute nodes. In this session we\u2019ll present an overview of interactive computing tools and methods. ",
+            "Authors": "Igor Sfiligoi",
+            "Expertise_Level": [
+              "All"
+            ],
+            "IV": true,
+            "Keywords": [
+              "Expanse",
+              "HPC Training",
+              "Industry"
+            ],
+            "Language": "en",
+            "Learning_Resource_Type": "recorded lesson",
+            "Provider_ID": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:856",
+            "Resource_URL_Type": "URL",
+            "Start_Datetime": "2023-12-07T19:00:00.000000",
+            "Target_Group": [
+              "Research groups"
+            ],
+            "Title": "SDSC Webinar: Interactive Computing on High Performance Computing Resources",
+            "URL": "https://education.sdsc.edu/training/interactive/202312-SDSCWebinar-Interactive-Computing-on-HPC-Resources"
+          },
+          "entry_id": "std",
+          "matched_principal_sets": []
+        }
+      ],
+      "subject": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:856:202312-SDSCWebinar-Interactive-Computing-on-HPC-Resources"
+    },
+    {
+      "@datatype": "GMetaResult",
+      "@version": "2019-08-27",
+      "entries": [
+        {
+          "content": {
+            "Abstract": "Serverless computing allows you to build and run applications and services without having to manage infrastructure. This training course is targeted at IT professionals who need to gain a foundational knowledge of serverless computing\u2014what it is and why it's important\u2014and what's offered by serverless computing technologies like AWS Lambda and Azure Functions. Instructor David Linthicum begins with the basics: what serverless computing is and the problems it can solve. He then runs through demos of both Lambda and Functions and explores effective use cases for serverless computing.",
+            "Authors": [],
+            "Cost": null,
+            "Duration": 240,
+            "Expertise_Level": [
+              "Advanced"
+            ],
+            "Keywords": [
+              "linda"
+            ],
+            "Language": "en",
+            "Learning_Outcome": [
+              "Basic understanding"
+            ],
+            "Learning_Resource_Type": "unit plan",
+            "License": null,
+            "Provider_ID": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:897",
+            "Rating": 0.7,
+            "Resource_URL_Type": "URL",
+            "Start_Datetime": "2024-03-27T15:47:12.135178",
+            "Target_Group": [
+              "Research networks"
+            ],
+            "Title": "Learning Cloud Computing: Serverless Computing",
+            "URL": "https://www.lynda.com/course-tutorials/Learning-Cloud-Computing-Serverless-Computing/728399-2.html",
+            "Version_Date": "2024-02-15T05:01:54.305622Z"
+          },
+          "entry_id": null,
+          "matched_principal_sets": []
+        }
+      ],
+      "subject": "urn:ogf:glue2:uiuc.edu:resource:86798"
+    },
+    {
+      "@datatype": "GMetaResult",
+      "@version": "2019-08-27",
+      "entries": [
+        {
+          "content": {
+            "Abstract": "Serverless computing allows you to build and run applications and services without having to manage infrastructure. This training course is targeted at IT professionals who need to gain a foundational knowledge of serverless computing\u2014what it is and why it's important\u2014and what's offered by serverless computing technologies like AWS Lambda and Azure Functions. Instructor David Linthicum begins with the basics: what serverless computing is and the problems it can solve. He then runs through demos of both Lambda and Functions and explores effective use cases for serverless computing.",
+            "Authors": [],
+            "Cost": null,
+            "Duration": 240,
+            "Expertise_Level": [
+              "Intermediate"
+            ],
+            "Keywords": [
+              "linda"
+            ],
+            "Language": "en",
+            "Learning_Outcome": [
+              "Basic understanding"
+            ],
+            "Learning_Resource_Type": "assessment item",
+            "License": null,
+            "Provider_ID": "urn:ogf.org:glue2:access-ci.org:resource:cider:infrastructure.organizations:897",
+            "Rating": 1.3,
+            "Resource_URL_Type": "URL",
+            "Start_Datetime": "2024-03-27T15:47:09.989191",
+            "Target_Group": [
+              "Resource Managers"
+            ],
+            "Title": "Learning Cloud Computing: Serverless Computing",
+            "URL": "https://www.lynda.com/course-tutorials/Learning-Cloud-Computing-Serverless-Computing/728399-2.html",
+            "Version_Date": "2024-02-15T05:02:27.820018Z"
+          },
+          "entry_id": null,
+          "matched_principal_sets": []
+        }
+      ],
+      "subject": "urn:ogf:glue2:uiuc.edu:resource:93676"
+    }
+  ],
+  "has_next_page": true,
+  "offset": 0,
+  "total": 292
+}
