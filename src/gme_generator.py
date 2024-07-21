@@ -13,16 +13,6 @@ class GMetaEntry:
 
         self.content = {}
 
-    def __helper_create_gmetaentry__(self):
-        gmetaentry = {
-            "@datatype": "GMetaEntry",
-            "subject": self.subject,
-            "visible_to": self.visibility,
-            "content": self.content
-        }
-        return gmetaentry
-
-
     def set_visibility(self, vis):
         self.visibility = vis
 
@@ -33,5 +23,10 @@ class GMetaEntry:
         del self.content[field]
     
     def create_json(self):
-        gmetaentry = self.__helper_create_gmetaentry__(self.subject, self.visibility, self.content)
+        gmetaentry = {
+            "@datatype": "GMetaEntry",
+            "subject": self.subject,
+            "visible_to": self.visibility,
+            "content": self.content
+        }
         json.dump(gmetaentry, open(f'output_data/{self.file_name}.json', 'w'), indent=4)
