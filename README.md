@@ -12,7 +12,6 @@ The notebooks in this collection are designed to demonstrate how to use the HPC-
 
 | **NOTEBOOKS** | **DESCRIPTION** |
 | --------------| --------------| 
-
 | hpc-ed-gme-generator.ipynb | description |
 | hpc-ed-ingest-cli.ipynb | description |
 | hpc-ed-search-cli.ipynb | description |
