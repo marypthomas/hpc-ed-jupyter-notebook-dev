@@ -22,6 +22,15 @@ class GMetaEntry:
     def remove_content(self, field):
         del self.content[field]
     
+    def show_gme(self):
+        gmetaentry = {
+            "@datatype": "GMetaEntry",
+            "subject": self.subject,
+            "visible_to": self.visibility,
+            "content": self.content
+        }
+        print(json.dumps(gmetaentry, indent=4))
+    
     def create_json(self):
         gmetaentry = {
             "@datatype": "GMetaEntry",
@@ -34,3 +43,4 @@ class GMetaEntry:
         with open(f'{self.file_name}.json', 'r') as file:
             data = json.load(file)
             print(json.dumps(data, indent=4))
+
