@@ -18,6 +18,11 @@ The notebooks in this collection are designed to demonstrate how to use the HPC-
 | hpc-ed-json-file-builder.ipynb | create a JSON formatted file for ingestion to the Federated Materials Repository |
 | input_data | folder contains input/output data used by the notebooks |
 
+## To use these notebooks:
+You need to update your HPC-ED Credentials. Edit the file in 
+```
+src/credential.sh
+```
 
  ## Future Plans
 Future plans include using the ```globus-sdk``` for more advance notebook capabilities. The Globus SDK provides a convenient Pythonic interface to Globus web APIs, including the Transfer API and the Globus Auth API. For more information, see:  https://globus-sdk-python.readthedocs.io/en/stable/
