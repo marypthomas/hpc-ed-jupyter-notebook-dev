@@ -15,6 +15,7 @@ The notebooks in this collection are designed to demonstrate how to use the HPC-
 | hpc-ed-gme-generator.ipynb | description |
 | hpc-ed-ingest-cli.ipynb | description |
 | hpc-ed-search-cli.ipynb | description |
+| hpc-ed-json-file-builder.ipynb | create a JSON formatted file for ingestion to the Federated Materials Repository |
 | input_data | folder contains input/output data used by the notebooks |
 
 
