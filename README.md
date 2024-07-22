@@ -12,9 +12,9 @@ The notebooks in this collection are designed to demonstrate how to use the HPC-
 
 | **NOTEBOOKS** | **DESCRIPTION** |
 | --------------| --------------| 
-| hpc-ed-gme-generator.ipynb | description |
-| hpc-ed-ingest-cli.ipynb | description |
-| hpc-ed-search-cli.ipynb | description |
+| hpc-ed-gme-generator.ipynb |  |
+| hpc-ed-ingest-cli.ipynb | Upload/Ingest material using globus-cli (CLI) |
+| hpc-ed-search-cli.ipynb | Search/download material using globus-cli (CLI) |
 | hpc-ed-json-file-builder.ipynb | create a JSON formatted file for ingestion to the Federated Materials Repository |
 | input_data | folder contains input/output data used by the notebooks |
 
