@@ -24,19 +24,25 @@ class GMetaEntry:
     
     def show_gme(self):
         gmetaentry = {
-            "@datatype": "GMetaEntry",
-            "subject": self.subject,
-            "visible_to": self.visibility,
-            "content": self.content
+            "ingest_type": "GMetaEntry",
+            "ingest_data": {
+                "subject": self.subject,
+                "visible_to": self.visibility,
+                "id": self.id,
+                "content": self.content
+            }
         }
         print(json.dumps(gmetaentry, indent=4))
     
     def create_json(self):
         gmetaentry = {
-            "@datatype": "GMetaEntry",
-            "subject": self.subject,
-            "visible_to": self.visibility,
-            "content": self.content
+            "ingest_type": "GMetaEntry",
+            "ingest_data": {
+                "subject": self.subject,
+                "visible_to": self.visibility,
+                "id": self.id,
+                "content": self.content
+            }
         }
         json.dump(gmetaentry, open(f'{self.file_name}.json', 'w'), indent=4)
 
