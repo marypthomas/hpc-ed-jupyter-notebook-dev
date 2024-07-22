@@ -29,4 +29,8 @@ class GMetaEntry:
             "visible_to": self.visibility,
             "content": self.content
         }
-        json.dump(gmetaentry, open(f'output_data/{self.file_name}.json', 'w'), indent=4)
+        json.dump(gmetaentry, open(f'{self.file_name}.json', 'w'), indent=4)
+
+        with open(f'{self.file_name}.json', 'r') as file:
+            data = json.load(file)
+            print(json.dumps(data, indent=4))
